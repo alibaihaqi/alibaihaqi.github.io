@@ -17,6 +17,7 @@ body {
     font-family: sans-serif;
     color: black;
     line-height: 100px;
+    padding-left: 15px;
 
 }
 
@@ -26,16 +27,8 @@ body {
 
 }
 
-#linking {
-    padding: auto;
-}
-#linking a {
-    box-sizing: border-box;
-    font-size: 25px;
-    color: black;
-    line-height: 30px;
-    text-a: center;
-
+p {
+    text-align: justify;
 }
 
 .kiri {
@@ -43,11 +36,16 @@ body {
     float: left;
     border: 1px solid black;
     width: 50%;
-    min-height: 700px;
+    min-height: 800px;
     background-color: white;
     opacity: 0.5;
     padding-top: 15px;
     padding-left: 15px;
+    padding-right: 15px;
+}
+
+.kiri tbody td {
+    padding: 5px;
 }
 
 h1 {
@@ -61,7 +59,7 @@ h1 {
     float: right;
     border: 1px solid black;
     width: 50%;
-    min-height: 700px;
+    min-height: 800px;
     background-color: white;
     opacity: 0.5;
     padding-top: 15px;
