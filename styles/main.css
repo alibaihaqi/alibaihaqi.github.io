@@ -11,14 +11,23 @@ body {
     width: 100%;
 }
 
-#utama a {
+#utama {
+    width: 100%;
+    height: 100px;
+}
+
+#utama img {
+    float: left;
+    height: 100px;
+}
+#utama h1 {
     text-decoration: none;
     font-size: 40px;
     font-family: sans-serif;
     color: black;
     line-height: 100px;
-    padding-left: 15px;
-
+    margin-right: 15px;
+    float: right;
 }
 
 #main-content {
@@ -38,7 +47,7 @@ p {
     width: 50%;
     min-height: 800px;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -61,8 +70,19 @@ h1 {
     width: 50%;
     min-height: 800px;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
     padding-top: 15px;
     padding-left: 15px;
 
+}
+
+.kanan #travelling img {
+    border-radius: 50%;
+    padding: 15px;
+    height: 90px;
+}
+
+.kanan #contact img {
+    padding: 15px;
+    height: 35px;
 }
