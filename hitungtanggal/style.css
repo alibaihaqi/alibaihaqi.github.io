@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url("../hitungtanggal/images/Coldplay-1-1.jpg");
+  background-size: cover; 
+  width: 100%;
+}
+
+#title {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  min-height: 100px;
+  line-height: 100px;
+  opacity: 0.8;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #000000;
+}
+
+h2 {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#main-content {
+  background-color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+  min-height: 600px;
+  opacity: 0.8;
+}
+
+#penjelasan {
+  text-align: center;
+  line-height: 50px;
+}
+
+#left-content {
+  width: 50%;
+  padding-left: 10px;
+  float: left;
+}
+
+#right-content {
+  width: 50%;
+  padding-right: 15px;
+  float: right;
+}
+
+p #hasil {
+  color: blue;
+}
